@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  text-align: center;
+}
+
+.conteudo p {
+  font-weight: bold;
+}
+
+.testes-lista {
+  margin-top: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.teste-lista-item {
+  margin-bottom: 10px;
+}
+
+.teste-link {
+  display: block;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.teste-link:hover {
+  background-color: #0056b3;
+}
+
+.botao-voltar {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.botao-voltar:hover {
+  background-color: #45a049;
+}
+
+.botao-mudar-cor {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.botao-mudar-cor:hover {
+  background-color: #0073e6;
+}
+
+.botao-estilo {
+  margin-top: 0px;
+}
